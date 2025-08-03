@@ -1,0 +1,24 @@
+# Основные зависимости
+pycryptodome==3.20.0         # Криптографические алгоритмы (AES, ChaCha20, RSA, ECC)
+psutil==5.9.8                 # Мониторинг процессов и системы
+zstandard==0.22.0             # Алгоритм сжатия Zstandard
+pylzma==0.5.0                 # Алгоритм сжатия LZMA
+
+# Графический интерфейс
+tkinter==0.1.0                # Основная библиотека GUI (обычно входит в стандартную поставку Python)
+Pillow==10.3.0                # Обработка изображений для иконок
+
+# Дополнительные утилиты
+pyinstaller==6.7.0            # Для сборки исполняемых файлов (опционально)
+argparse==1.4.0               # Обработка аргументов командной строки (обычно в стандартной поставке)
+python-dotenv==1.0.1          # Управление переменными окружения (опционально)
+
+# Зависимости для конкретных ОС
+# Для Windows:
+#   Установить Visual C++ Build Tools: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+#
+# Для Linux (Debian/Ubuntu):
+#   sudo apt-get install python3-tk python3-dev liblzma-dev build-essential
+#
+# Для macOS:
+#   brew install python-tk zstd xz
